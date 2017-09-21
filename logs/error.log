@@ -1,0 +1,198 @@
+2017-09-17T13:34:24.013Z - error: Error when processing render request Error during rendering report: Unexpected token a in JSON at position 0 SyntaxError: Unexpected token a in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at module.exports (/home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-core/lib/render/resolveReferences.js:4:17)
+    at module.exports (/home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-core/lib/render/engineScript.js:96:17)
+    at process.<anonymous> (/home/hanafi/myproject/my-app-local/js-report/node_modules/script-manager/lib/worker-processes.js:48:36)
+    at emitTwo (events.js:125:13)
+    at process.emit (events.js:213:7)
+    at emit (internal/child_process.js:774:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9) requestId=5
+2017-09-17T13:34:24.014Z - error: Error during processing request: http://localhost:5488/api/report details: Error during rendering report: Unexpected token a in JSON at position 0 SyntaxError: Unexpected token a in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at module.exports (/home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-core/lib/render/resolveReferences.js:4:17)
+    at module.exports (/home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-core/lib/render/engineScript.js:96:17)
+    at process.<anonymous> (/home/hanafi/myproject/my-app-local/js-report/node_modules/script-manager/lib/worker-processes.js:48:36)
+    at emitTwo (events.js:125:13)
+    at process.emit (events.js:213:7)
+    at emit (internal/child_process.js:774:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+2017-09-17T13:35:09.314Z - error: Error when processing render request Error during rendering report: Unexpected token a in JSON at position 0 SyntaxError: Unexpected token a in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at module.exports (/home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-core/lib/render/resolveReferences.js:4:17)
+    at module.exports (/home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-core/lib/render/engineScript.js:96:17)
+    at process.<anonymous> (/home/hanafi/myproject/my-app-local/js-report/node_modules/script-manager/lib/worker-processes.js:48:36)
+    at emitTwo (events.js:125:13)
+    at process.emit (events.js:213:7)
+    at emit (internal/child_process.js:774:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9) requestId=6
+2017-09-17T13:35:09.315Z - error: Error during processing request: http://localhost:5488/api/report details: Error during rendering report: Unexpected token a in JSON at position 0 SyntaxError: Unexpected token a in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at module.exports (/home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-core/lib/render/resolveReferences.js:4:17)
+    at module.exports (/home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-core/lib/render/engineScript.js:96:17)
+    at process.<anonymous> (/home/hanafi/myproject/my-app-local/js-report/node_modules/script-manager/lib/worker-processes.js:48:36)
+    at emitTwo (events.js:125:13)
+    at process.emit (events.js:213:7)
+    at emit (internal/child_process.js:774:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+2017-09-17T13:50:36.803Z - error: Error when processing render request Error during rendering report: getaddrinfo EAI_AGAIN jsreport.net:80 Error: getaddrinfo EAI_AGAIN jsreport.net:80
+    at Object._errnoException (util.js:1022:11)
+    at errnoException (dns.js:58:15)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:95:26) requestId=17
+2017-09-17T13:50:36.805Z - error: Error during processing request: http://localhost:5488/api/report/Population details: Error during rendering report: getaddrinfo EAI_AGAIN jsreport.net:80 Error: getaddrinfo EAI_AGAIN jsreport.net:80
+    at Object._errnoException (util.js:1022:11)
+    at errnoException (dns.js:58:15)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:95:26)
+2017-09-17T13:51:30.605Z - error: Error when processing render request Error during rendering report: Unsupported module in scripts: http. To enable require on particular module, you need to update the configuration as {"scripts": { "allowedModules": ["http"] } } ... Alternatively you can also set "*" to allowedModules to enable everything /home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-scripts/lib/scriptEvalChild.js:44
+    throw new Error('Unsupported module in scripts: ' + moduleName + '. To enable require on particular module, you need to update the configuration as ' +
+    ^
+
+Error: Unsupported module in scripts: http. To enable require on particular module, you need to update the configuration as {"scripts": { "allowedModules": ["http"] } } ... Alternatively you can also set "*" to allowedModules to enable everything
+    at _require (/home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-scripts/lib/scriptEvalChild.js:44:11)
+    at evalmachine.<anonymous>:2:12
+    at ContextifyScript.Script.runInContext (vm.js:53:29)
+    at ContextifyScript.Script.runInNewContext (vm.js:59:15)
+    at Object.runInNewContext (vm.js:112:38)
+    at module.exports (/home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-scripts/lib/scriptEvalChild.js:123:6)
+    at process.<anonymous> (/home/hanafi/myproject/my-app-local/js-report/node_modules/script-manager/lib/worker-processes.js:48:36)
+    at emitTwo (events.js:125:13)
+    at process.emit (events.js:213:7)
+    at emit (internal/child_process.js:774:12) requestId=18
+2017-09-17T13:51:30.605Z - error: Error during processing request: http://localhost:5488/api/report details: Error during rendering report: Unsupported module in scripts: http. To enable require on particular module, you need to update the configuration as {"scripts": { "allowedModules": ["http"] } } ... Alternatively you can also set "*" to allowedModules to enable everything /home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-scripts/lib/scriptEvalChild.js:44
+    throw new Error('Unsupported module in scripts: ' + moduleName + '. To enable require on particular module, you need to update the configuration as ' +
+    ^
+
+Error: Unsupported module in scripts: http. To enable require on particular module, you need to update the configuration as {"scripts": { "allowedModules": ["http"] } } ... Alternatively you can also set "*" to allowedModules to enable everything
+    at _require (/home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-scripts/lib/scriptEvalChild.js:44:11)
+    at evalmachine.<anonymous>:2:12
+    at ContextifyScript.Script.runInContext (vm.js:53:29)
+    at ContextifyScript.Script.runInNewContext (vm.js:59:15)
+    at Object.runInNewContext (vm.js:112:38)
+    at module.exports (/home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-scripts/lib/scriptEvalChild.js:123:6)
+    at process.<anonymous> (/home/hanafi/myproject/my-app-local/js-report/node_modules/script-manager/lib/worker-processes.js:48:36)
+    at emitTwo (events.js:125:13)
+    at process.emit (events.js:213:7)
+    at emit (internal/child_process.js:774:12)
+2017-09-17T22:03:59.761Z - error: Error when processing render request Error during rendering report: Missing helper: "total" /home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js:19
+      throw new _exception2['default']('Missing helper: "' + arguments[arguments.length - 1].name + '"');
+      ^
+
+Error: Missing helper: "total"
+    at Object.<anonymous> (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js:19:13)
+    at Object.eval [as main] (eval at createFunctionContext (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:254:23), <anonymous>:26:68)
+    at main (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/runtime.js:173:32)
+    at ret (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/runtime.js:176:12)
+    at ret (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:525:21)
+    at /home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-handlebars/lib/handlebarsEngine.js:25:14
+    at evalmachine.<anonymous>:1:41
+    at ContextifyScript.Script.runInContext (vm.js:53:29)
+    at ContextifyScript.Script.runInNewContext (vm.js:59:15)
+    at Object.runInNewContext (vm.js:112:38) requestId=24
+2017-09-17T22:03:59.762Z - error: Error during processing request: http://localhost:5488/api/report/Profile details: Error during rendering report: Missing helper: "total" /home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js:19
+      throw new _exception2['default']('Missing helper: "' + arguments[arguments.length - 1].name + '"');
+      ^
+
+Error: Missing helper: "total"
+    at Object.<anonymous> (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js:19:13)
+    at Object.eval [as main] (eval at createFunctionContext (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:254:23), <anonymous>:26:68)
+    at main (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/runtime.js:173:32)
+    at ret (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/runtime.js:176:12)
+    at ret (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:525:21)
+    at /home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-handlebars/lib/handlebarsEngine.js:25:14
+    at evalmachine.<anonymous>:1:41
+    at ContextifyScript.Script.runInContext (vm.js:53:29)
+    at ContextifyScript.Script.runInNewContext (vm.js:59:15)
+    at Object.runInNewContext (vm.js:112:38)
+2017-09-17T22:06:10.504Z - error: Error when processing render request Error during rendering report: Missing helper: "total" /home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js:19
+      throw new _exception2['default']('Missing helper: "' + arguments[arguments.length - 1].name + '"');
+      ^
+
+Error: Missing helper: "total"
+    at Object.<anonymous> (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js:19:13)
+    at Object.eval [as main] (eval at createFunctionContext (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:254:23), <anonymous>:26:68)
+    at main (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/runtime.js:173:32)
+    at ret (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/runtime.js:176:12)
+    at ret (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:525:21)
+    at /home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-handlebars/lib/handlebarsEngine.js:25:14
+    at evalmachine.<anonymous>:1:41
+    at ContextifyScript.Script.runInContext (vm.js:53:29)
+    at ContextifyScript.Script.runInNewContext (vm.js:59:15)
+    at Object.runInNewContext (vm.js:112:38) requestId=27
+2017-09-17T22:06:10.505Z - error: Error during processing request: http://localhost:5488/api/report/Profile details: Error during rendering report: Missing helper: "total" /home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js:19
+      throw new _exception2['default']('Missing helper: "' + arguments[arguments.length - 1].name + '"');
+      ^
+
+Error: Missing helper: "total"
+    at Object.<anonymous> (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js:19:13)
+    at Object.eval [as main] (eval at createFunctionContext (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:254:23), <anonymous>:26:68)
+    at main (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/runtime.js:173:32)
+    at ret (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/runtime.js:176:12)
+    at ret (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:525:21)
+    at /home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-handlebars/lib/handlebarsEngine.js:25:14
+    at evalmachine.<anonymous>:1:41
+    at ContextifyScript.Script.runInContext (vm.js:53:29)
+    at ContextifyScript.Script.runInNewContext (vm.js:59:15)
+    at Object.runInNewContext (vm.js:112:38)
+2017-09-17T22:06:22.563Z - error: Error when processing render request Error during rendering report: Missing helper: "total" /home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js:19
+      throw new _exception2['default']('Missing helper: "' + arguments[arguments.length - 1].name + '"');
+      ^
+
+Error: Missing helper: "total"
+    at Object.<anonymous> (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js:19:13)
+    at Object.eval [as main] (eval at createFunctionContext (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:254:23), <anonymous>:26:68)
+    at main (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/runtime.js:173:32)
+    at ret (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/runtime.js:176:12)
+    at ret (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:525:21)
+    at /home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-handlebars/lib/handlebarsEngine.js:25:14
+    at evalmachine.<anonymous>:1:41
+    at ContextifyScript.Script.runInContext (vm.js:53:29)
+    at ContextifyScript.Script.runInNewContext (vm.js:59:15)
+    at Object.runInNewContext (vm.js:112:38) requestId=28
+2017-09-17T22:06:22.565Z - error: Error during processing request: http://localhost:5488/api/report/Profile details: Error during rendering report: Missing helper: "total" /home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js:19
+      throw new _exception2['default']('Missing helper: "' + arguments[arguments.length - 1].name + '"');
+      ^
+
+Error: Missing helper: "total"
+    at Object.<anonymous> (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js:19:13)
+    at Object.eval [as main] (eval at createFunctionContext (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:254:23), <anonymous>:26:68)
+    at main (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/runtime.js:173:32)
+    at ret (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/runtime.js:176:12)
+    at ret (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:525:21)
+    at /home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-handlebars/lib/handlebarsEngine.js:25:14
+    at evalmachine.<anonymous>:1:41
+    at ContextifyScript.Script.runInContext (vm.js:53:29)
+    at ContextifyScript.Script.runInNewContext (vm.js:59:15)
+    at Object.runInNewContext (vm.js:112:38)
+2017-09-17T22:06:38.252Z - error: Error when processing render request Error during rendering report: Missing helper: "total" /home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js:19
+      throw new _exception2['default']('Missing helper: "' + arguments[arguments.length - 1].name + '"');
+      ^
+
+Error: Missing helper: "total"
+    at Object.<anonymous> (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js:19:13)
+    at Object.eval [as main] (eval at createFunctionContext (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:254:23), <anonymous>:26:68)
+    at main (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/runtime.js:173:32)
+    at ret (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/runtime.js:176:12)
+    at ret (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:525:21)
+    at /home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-handlebars/lib/handlebarsEngine.js:25:14
+    at evalmachine.<anonymous>:1:41
+    at ContextifyScript.Script.runInContext (vm.js:53:29)
+    at ContextifyScript.Script.runInNewContext (vm.js:59:15)
+    at Object.runInNewContext (vm.js:112:38) requestId=29
+2017-09-17T22:06:38.253Z - error: Error during processing request: http://localhost:5488/api/report/Profile details: Error during rendering report: Missing helper: "total" /home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js:19
+      throw new _exception2['default']('Missing helper: "' + arguments[arguments.length - 1].name + '"');
+      ^
+
+Error: Missing helper: "total"
+    at Object.<anonymous> (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js:19:13)
+    at Object.eval [as main] (eval at createFunctionContext (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:254:23), <anonymous>:26:68)
+    at main (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/runtime.js:173:32)
+    at ret (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/runtime.js:176:12)
+    at ret (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:525:21)
+    at /home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-handlebars/lib/handlebarsEngine.js:25:14
+    at evalmachine.<anonymous>:1:41
+    at ContextifyScript.Script.runInContext (vm.js:53:29)
+    at ContextifyScript.Script.runInNewContext (vm.js:59:15)
+    at Object.runInNewContext (vm.js:112:38)

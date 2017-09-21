@@ -1,0 +1,586 @@
+2017-09-17T12:32:29.648Z - info: Initializing jsreport@1.8.2 in development mode using configuration file dev.config.json
+2017-09-17T12:32:29.650Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2017-09-17T12:32:29.653Z - info: Searching for available extensions in /home/hanafi/myproject/my-app-local/js-report/
+2017-09-17T12:32:29.656Z - info: Extensions location cache not found, crawling directories
+2017-09-17T12:32:29.967Z - info: Found 30 extensions
+2017-09-17T12:32:29.988Z - info: Using extension import-export
+2017-09-17T12:32:30.152Z - info: Using extension tags
+2017-09-17T12:32:30.159Z - info: Using extension templates
+2017-09-17T12:32:30.163Z - info: Using extension jsrender
+2017-09-17T12:32:30.165Z - info: Using extension cli
+2017-09-17T12:32:30.165Z - info: Using extension handlebars
+2017-09-17T12:32:30.167Z - info: Using extension debug
+2017-09-17T12:32:30.168Z - info: Using extension express
+2017-09-17T12:32:30.248Z - info: Using extension fop-pdf
+2017-09-17T12:32:30.254Z - info: Using extension phantom-pdf
+2017-09-17T12:32:30.302Z - info: Using extension fs-store
+2017-09-17T12:32:30.473Z - info: Using extension authorization
+2017-09-17T12:32:30.474Z - info: Using extension images
+2017-09-17T12:32:30.478Z - info: Using extension child-templates
+2017-09-17T12:32:30.480Z - info: Using extension browser-client
+2017-09-17T12:32:30.481Z - info: Using extension licensing
+2017-09-17T12:32:30.508Z - info: Using extension data
+2017-09-17T12:32:30.510Z - info: Using extension text
+2017-09-17T12:32:30.510Z - info: Using extension reports
+2017-09-17T12:32:30.513Z - info: Using extension resources
+2017-09-17T12:32:30.514Z - info: Using extension base
+2017-09-17T12:32:30.515Z - info: Using extension studio
+2017-09-17T12:32:30.581Z - info: Using extension html-to-xlsx
+2017-09-17T12:32:30.653Z - info: Using extension scripts
+2017-09-17T12:32:30.655Z - info: Using extension assets
+2017-09-17T12:32:30.661Z - info: Using extension scheduling
+2017-09-17T12:32:30.698Z - info: Using extension xlsx
+2017-09-17T12:32:30.808Z - info: Using extension sample-template
+2017-09-17T12:32:30.810Z - info: Using extension public-templates
+2017-09-17T12:32:30.816Z - info: Initializing fs storage at /home/hanafi/myproject/my-app-local/js-report/data
+2017-09-17T12:32:31.166Z - info: Creating default express app.
+2017-09-17T12:32:31.247Z - info: jsreport server successfully started on http port: 5488
+2017-09-17T12:32:31.253Z - info: Verifying license key free
+2017-09-17T12:32:31.254Z - info: Using free license
+2017-09-17T12:32:31.489Z - info: reporter initialized
+2017-09-17T12:41:47.015Z - info: Starting rendering request 1 (user: null) requestId=1
+2017-09-17T12:41:47.018Z - info: Rendering template {shortid:rkJTnK2ce, recipe:phantom-pdf,engine:handlebars} requestId=1
+2017-09-17T12:41:48.343Z - info: Rendering request 1 finished in 1330 ms requestId=1
+2017-09-17T13:20:56.443Z - info: Starting rendering request 2 (user: null) requestId=2
+2017-09-17T13:20:56.543Z - warn: Error when processing render request Error during rendering report: Unable to find specified template or user doesnt have permissions to read it: OrderDetail Error: Unable to find specified template or user doesnt have permissions to read it: OrderDetail
+    at /home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-templates/lib/templates.js:69:17
+    at tryCatcher (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:691:18)
+    at Async._drainQueue (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:781:20)
+    at tryOnImmediate (timers.js:743:5)
+    at processImmediate [as _immediateCallback] (timers.js:714:5) requestId=2
+2017-09-17T13:20:56.547Z - warn: Error during processing request: http://localhost:5488/api/report details: Error during rendering report: Unable to find specified template or user doesnt have permissions to read it: OrderDetail Error: Unable to find specified template or user doesnt have permissions to read it: OrderDetail
+    at /home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-templates/lib/templates.js:69:17
+    at tryCatcher (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:691:18)
+    at Async._drainQueue (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:781:20)
+    at tryOnImmediate (timers.js:743:5)
+    at processImmediate [as _immediateCallback] (timers.js:714:5)
+2017-09-17T13:20:58.085Z - info: Starting rendering request 3 (user: null) requestId=3
+2017-09-17T13:20:58.124Z - warn: Error when processing render request Error during rendering report: Unable to find specified template or user doesnt have permissions to read it: OrderDetail Error: Unable to find specified template or user doesnt have permissions to read it: OrderDetail
+    at /home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-templates/lib/templates.js:69:17
+    at tryCatcher (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:691:18)
+    at Async._drainQueue (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:781:20)
+    at tryOnImmediate (timers.js:743:5)
+    at processImmediate [as _immediateCallback] (timers.js:714:5) requestId=3
+2017-09-17T13:20:58.124Z - warn: Error during processing request: http://localhost:5488/api/report details: Error during rendering report: Unable to find specified template or user doesnt have permissions to read it: OrderDetail Error: Unable to find specified template or user doesnt have permissions to read it: OrderDetail
+    at /home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-templates/lib/templates.js:69:17
+    at tryCatcher (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:691:18)
+    at Async._drainQueue (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:781:20)
+    at tryOnImmediate (timers.js:743:5)
+    at processImmediate [as _immediateCallback] (timers.js:714:5)
+2017-09-17T13:21:04.202Z - info: Starting rendering request 4 (user: null) requestId=4
+2017-09-17T13:21:04.208Z - warn: Error when processing render request Error during rendering report: Unable to find specified template or user doesnt have permissions to read it: OrderDetail Error: Unable to find specified template or user doesnt have permissions to read it: OrderDetail
+    at /home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-templates/lib/templates.js:69:17
+    at tryCatcher (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:691:18)
+    at Async._drainQueue (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:781:20)
+    at tryOnImmediate (timers.js:743:5)
+    at processImmediate [as _immediateCallback] (timers.js:714:5) requestId=4
+2017-09-17T13:21:04.209Z - warn: Error during processing request: http://localhost:5488/api/report details: Error during rendering report: Unable to find specified template or user doesnt have permissions to read it: OrderDetail Error: Unable to find specified template or user doesnt have permissions to read it: OrderDetail
+    at /home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-templates/lib/templates.js:69:17
+    at tryCatcher (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:691:18)
+    at Async._drainQueue (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/home/hanafi/myproject/my-app-local/js-report/node_modules/listener-collection/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:781:20)
+    at tryOnImmediate (timers.js:743:5)
+    at processImmediate [as _immediateCallback] (timers.js:714:5)
+2017-09-17T13:34:21.036Z - info: Starting rendering request 5 (user: null) requestId=5
+2017-09-17T13:34:21.038Z - info: Rendering template {shortid:rkJTnK2ce, recipe:phantom-pdf,engine:handlebars} requestId=5
+2017-09-17T13:34:24.012Z - error: Error when processing render request Error during rendering report: Unexpected token a in JSON at position 0 SyntaxError: Unexpected token a in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at module.exports (/home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-core/lib/render/resolveReferences.js:4:17)
+    at module.exports (/home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-core/lib/render/engineScript.js:96:17)
+    at process.<anonymous> (/home/hanafi/myproject/my-app-local/js-report/node_modules/script-manager/lib/worker-processes.js:48:36)
+    at emitTwo (events.js:125:13)
+    at process.emit (events.js:213:7)
+    at emit (internal/child_process.js:774:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9) requestId=5
+2017-09-17T13:34:24.014Z - error: Error during processing request: http://localhost:5488/api/report details: Error during rendering report: Unexpected token a in JSON at position 0 SyntaxError: Unexpected token a in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at module.exports (/home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-core/lib/render/resolveReferences.js:4:17)
+    at module.exports (/home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-core/lib/render/engineScript.js:96:17)
+    at process.<anonymous> (/home/hanafi/myproject/my-app-local/js-report/node_modules/script-manager/lib/worker-processes.js:48:36)
+    at emitTwo (events.js:125:13)
+    at process.emit (events.js:213:7)
+    at emit (internal/child_process.js:774:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+2017-09-17T13:35:07.911Z - info: Starting rendering request 6 (user: null) requestId=6
+2017-09-17T13:35:07.913Z - info: Rendering template {shortid:rkJTnK2ce, recipe:phantom-pdf,engine:handlebars} requestId=6
+2017-09-17T13:35:09.313Z - error: Error when processing render request Error during rendering report: Unexpected token a in JSON at position 0 SyntaxError: Unexpected token a in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at module.exports (/home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-core/lib/render/resolveReferences.js:4:17)
+    at module.exports (/home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-core/lib/render/engineScript.js:96:17)
+    at process.<anonymous> (/home/hanafi/myproject/my-app-local/js-report/node_modules/script-manager/lib/worker-processes.js:48:36)
+    at emitTwo (events.js:125:13)
+    at process.emit (events.js:213:7)
+    at emit (internal/child_process.js:774:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9) requestId=6
+2017-09-17T13:35:09.315Z - error: Error during processing request: http://localhost:5488/api/report details: Error during rendering report: Unexpected token a in JSON at position 0 SyntaxError: Unexpected token a in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at module.exports (/home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-core/lib/render/resolveReferences.js:4:17)
+    at module.exports (/home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-core/lib/render/engineScript.js:96:17)
+    at process.<anonymous> (/home/hanafi/myproject/my-app-local/js-report/node_modules/script-manager/lib/worker-processes.js:48:36)
+    at emitTwo (events.js:125:13)
+    at process.emit (events.js:213:7)
+    at emit (internal/child_process.js:774:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+2017-09-17T13:35:47.431Z - info: Starting rendering request 7 (user: null) requestId=7
+2017-09-17T13:35:47.432Z - info: Rendering template {shortid:rkJTnK2ce, recipe:phantom-pdf,engine:handlebars} requestId=7
+2017-09-17T13:35:54.568Z - info: Rendering request 7 finished in 7137 ms requestId=7
+2017-09-17T13:36:00.239Z - info: Starting rendering request 8 (user: null) requestId=8
+2017-09-17T13:36:00.242Z - info: Rendering template {shortid:rkJTnK2ce, recipe:phantom-pdf,engine:handlebars} requestId=8
+2017-09-17T13:36:02.887Z - info: Rendering request 8 finished in 2642 ms requestId=8
+2017-09-17T13:36:33.169Z - info: Starting rendering request 9 (user: null) requestId=9
+2017-09-17T13:36:33.171Z - info: Rendering template {shortid:rkJTnK2ce, recipe:phantom-pdf,engine:handlebars} requestId=9
+2017-09-17T13:36:35.477Z - info: Starting rendering request 10 (user: null) requestId=10
+2017-09-17T13:36:35.479Z - info: Rendering template {shortid:rkJTnK2ce, recipe:phantom-pdf,engine:handlebars} requestId=10
+2017-09-17T13:36:35.611Z - info: Rendering request 9 finished in 2441 ms requestId=9
+2017-09-17T13:36:38.019Z - info: Rendering request 10 finished in 2541 ms requestId=10
+2017-09-17T13:36:59.076Z - info: Starting rendering request 11 (user: null) requestId=11
+2017-09-17T13:36:59.077Z - info: Rendering template {shortid:rkJTnK2ce, recipe:phantom-pdf,engine:handlebars} requestId=11
+2017-09-17T13:37:01.509Z - info: Rendering request 11 finished in 2434 ms requestId=11
+2017-09-17T13:39:47.824Z - info: Starting rendering request 12 (user: null) requestId=12
+2017-09-17T13:39:47.827Z - info: Rendering template {shortid:rkJTnK2ce, recipe:phantom-pdf,engine:handlebars} requestId=12
+2017-09-17T13:39:50.559Z - info: Rendering request 12 finished in 2735 ms requestId=12
+2017-09-17T13:47:23.605Z - info: Starting rendering request 13 (user: null) requestId=13
+2017-09-17T13:47:23.611Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=13
+2017-09-17T13:47:24.648Z - info: Rendering request 13 finished in 1043 ms requestId=13
+2017-09-17T13:48:01.661Z - info: Starting rendering request 14 (user: null) requestId=14
+2017-09-17T13:48:01.668Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=14
+2017-09-17T13:48:02.541Z - info: Rendering request 14 finished in 880 ms requestId=14
+2017-09-17T13:49:04.254Z - info: Starting rendering request 15 (user: null) requestId=15
+2017-09-17T13:49:04.255Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=15
+2017-09-17T13:49:05.150Z - info: Rendering request 15 finished in 895 ms requestId=15
+2017-09-17T13:49:45.578Z - info: Starting rendering request 16 (user: null) requestId=16
+2017-09-17T13:49:45.579Z - info: Rendering template {shortid:r18kyD83ce, recipe:xlsx,engine:handlebars} requestId=16
+2017-09-17T13:49:48.284Z - info: Rendering request 16 finished in 2709 ms requestId=16
+2017-09-17T13:50:35.597Z - info: Starting rendering request 17 (user: null) requestId=17
+2017-09-17T13:50:35.600Z - info: Rendering template {shortid:r18kyD83ce, recipe:xlsx,engine:handlebars} requestId=17
+2017-09-17T13:50:36.803Z - error: Error when processing render request Error during rendering report: getaddrinfo EAI_AGAIN jsreport.net:80 Error: getaddrinfo EAI_AGAIN jsreport.net:80
+    at Object._errnoException (util.js:1022:11)
+    at errnoException (dns.js:58:15)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:95:26) requestId=17
+2017-09-17T13:50:36.805Z - error: Error during processing request: http://localhost:5488/api/report/Population details: Error during rendering report: getaddrinfo EAI_AGAIN jsreport.net:80 Error: getaddrinfo EAI_AGAIN jsreport.net:80
+    at Object._errnoException (util.js:1022:11)
+    at errnoException (dns.js:58:15)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:95:26)
+2017-09-17T13:51:29.996Z - info: Starting rendering request 18 (user: null) requestId=18
+2017-09-17T13:51:29.997Z - info: Rendering template {shortid:HJH11D83ce, recipe:phantom-pdf,engine:handlebars} requestId=18
+2017-09-17T13:51:30.604Z - error: Error when processing render request Error during rendering report: Unsupported module in scripts: http. To enable require on particular module, you need to update the configuration as {"scripts": { "allowedModules": ["http"] } } ... Alternatively you can also set "*" to allowedModules to enable everything /home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-scripts/lib/scriptEvalChild.js:44
+    throw new Error('Unsupported module in scripts: ' + moduleName + '. To enable require on particular module, you need to update the configuration as ' +
+    ^
+
+Error: Unsupported module in scripts: http. To enable require on particular module, you need to update the configuration as {"scripts": { "allowedModules": ["http"] } } ... Alternatively you can also set "*" to allowedModules to enable everything
+    at _require (/home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-scripts/lib/scriptEvalChild.js:44:11)
+    at evalmachine.<anonymous>:2:12
+    at ContextifyScript.Script.runInContext (vm.js:53:29)
+    at ContextifyScript.Script.runInNewContext (vm.js:59:15)
+    at Object.runInNewContext (vm.js:112:38)
+    at module.exports (/home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-scripts/lib/scriptEvalChild.js:123:6)
+    at process.<anonymous> (/home/hanafi/myproject/my-app-local/js-report/node_modules/script-manager/lib/worker-processes.js:48:36)
+    at emitTwo (events.js:125:13)
+    at process.emit (events.js:213:7)
+    at emit (internal/child_process.js:774:12) requestId=18
+2017-09-17T13:51:30.605Z - error: Error during processing request: http://localhost:5488/api/report details: Error during rendering report: Unsupported module in scripts: http. To enable require on particular module, you need to update the configuration as {"scripts": { "allowedModules": ["http"] } } ... Alternatively you can also set "*" to allowedModules to enable everything /home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-scripts/lib/scriptEvalChild.js:44
+    throw new Error('Unsupported module in scripts: ' + moduleName + '. To enable require on particular module, you need to update the configuration as ' +
+    ^
+
+Error: Unsupported module in scripts: http. To enable require on particular module, you need to update the configuration as {"scripts": { "allowedModules": ["http"] } } ... Alternatively you can also set "*" to allowedModules to enable everything
+    at _require (/home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-scripts/lib/scriptEvalChild.js:44:11)
+    at evalmachine.<anonymous>:2:12
+    at ContextifyScript.Script.runInContext (vm.js:53:29)
+    at ContextifyScript.Script.runInNewContext (vm.js:59:15)
+    at Object.runInNewContext (vm.js:112:38)
+    at module.exports (/home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-scripts/lib/scriptEvalChild.js:123:6)
+    at process.<anonymous> (/home/hanafi/myproject/my-app-local/js-report/node_modules/script-manager/lib/worker-processes.js:48:36)
+    at emitTwo (events.js:125:13)
+    at process.emit (events.js:213:7)
+    at emit (internal/child_process.js:774:12)
+2017-09-17T21:53:15.603Z - info: Starting rendering request 19 (user: null) requestId=19
+2017-09-17T21:53:15.605Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=19
+2017-09-17T21:53:16.507Z - info: Rendering request 19 finished in 904 ms requestId=19
+2017-09-17T21:58:14.393Z - info: Starting rendering request 20 (user: null) requestId=20
+2017-09-17T21:58:14.396Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=20
+2017-09-17T21:58:17.353Z - info: Rendering request 20 finished in 2960 ms requestId=20
+2017-09-17T22:02:01.816Z - info: Starting rendering request 21 (user: null) requestId=21
+2017-09-17T22:02:01.819Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=21
+2017-09-17T22:02:05.115Z - info: Rendering request 21 finished in 3300 ms requestId=21
+2017-09-17T22:02:19.023Z - info: Starting rendering request 22 (user: null) requestId=22
+2017-09-17T22:02:19.026Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=22
+2017-09-17T22:02:21.983Z - info: Rendering request 22 finished in 2959 ms requestId=22
+2017-09-17T22:03:19.296Z - info: Starting rendering request 23 (user: null) requestId=23
+2017-09-17T22:03:19.298Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=23
+2017-09-17T22:03:22.454Z - info: Rendering request 23 finished in 3157 ms requestId=23
+2017-09-17T22:03:57.289Z - info: Starting rendering request 24 (user: null) requestId=24
+2017-09-17T22:03:57.293Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=24
+2017-09-17T22:03:59.760Z - error: Error when processing render request Error during rendering report: Missing helper: "total" /home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js:19
+      throw new _exception2['default']('Missing helper: "' + arguments[arguments.length - 1].name + '"');
+      ^
+
+Error: Missing helper: "total"
+    at Object.<anonymous> (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js:19:13)
+    at Object.eval [as main] (eval at createFunctionContext (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:254:23), <anonymous>:26:68)
+    at main (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/runtime.js:173:32)
+    at ret (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/runtime.js:176:12)
+    at ret (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:525:21)
+    at /home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-handlebars/lib/handlebarsEngine.js:25:14
+    at evalmachine.<anonymous>:1:41
+    at ContextifyScript.Script.runInContext (vm.js:53:29)
+    at ContextifyScript.Script.runInNewContext (vm.js:59:15)
+    at Object.runInNewContext (vm.js:112:38) requestId=24
+2017-09-17T22:03:59.762Z - error: Error during processing request: http://localhost:5488/api/report/Profile details: Error during rendering report: Missing helper: "total" /home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js:19
+      throw new _exception2['default']('Missing helper: "' + arguments[arguments.length - 1].name + '"');
+      ^
+
+Error: Missing helper: "total"
+    at Object.<anonymous> (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js:19:13)
+    at Object.eval [as main] (eval at createFunctionContext (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:254:23), <anonymous>:26:68)
+    at main (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/runtime.js:173:32)
+    at ret (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/runtime.js:176:12)
+    at ret (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:525:21)
+    at /home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-handlebars/lib/handlebarsEngine.js:25:14
+    at evalmachine.<anonymous>:1:41
+    at ContextifyScript.Script.runInContext (vm.js:53:29)
+    at ContextifyScript.Script.runInNewContext (vm.js:59:15)
+    at Object.runInNewContext (vm.js:112:38)
+2017-09-17T22:04:34.808Z - info: Starting rendering request 25 (user: null) requestId=25
+2017-09-17T22:04:34.810Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=25
+2017-09-17T22:04:37.933Z - info: Rendering request 25 finished in 3125 ms requestId=25
+2017-09-17T22:05:07.870Z - info: Starting rendering request 26 (user: null) requestId=26
+2017-09-17T22:05:07.873Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=26
+2017-09-17T22:05:10.453Z - info: Rendering request 26 finished in 2583 ms requestId=26
+2017-09-17T22:06:08.486Z - info: Starting rendering request 27 (user: null) requestId=27
+2017-09-17T22:06:08.488Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=27
+2017-09-17T22:06:10.503Z - error: Error when processing render request Error during rendering report: Missing helper: "total" /home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js:19
+      throw new _exception2['default']('Missing helper: "' + arguments[arguments.length - 1].name + '"');
+      ^
+
+Error: Missing helper: "total"
+    at Object.<anonymous> (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js:19:13)
+    at Object.eval [as main] (eval at createFunctionContext (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:254:23), <anonymous>:26:68)
+    at main (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/runtime.js:173:32)
+    at ret (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/runtime.js:176:12)
+    at ret (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:525:21)
+    at /home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-handlebars/lib/handlebarsEngine.js:25:14
+    at evalmachine.<anonymous>:1:41
+    at ContextifyScript.Script.runInContext (vm.js:53:29)
+    at ContextifyScript.Script.runInNewContext (vm.js:59:15)
+    at Object.runInNewContext (vm.js:112:38) requestId=27
+2017-09-17T22:06:10.505Z - error: Error during processing request: http://localhost:5488/api/report/Profile details: Error during rendering report: Missing helper: "total" /home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js:19
+      throw new _exception2['default']('Missing helper: "' + arguments[arguments.length - 1].name + '"');
+      ^
+
+Error: Missing helper: "total"
+    at Object.<anonymous> (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js:19:13)
+    at Object.eval [as main] (eval at createFunctionContext (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:254:23), <anonymous>:26:68)
+    at main (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/runtime.js:173:32)
+    at ret (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/runtime.js:176:12)
+    at ret (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:525:21)
+    at /home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-handlebars/lib/handlebarsEngine.js:25:14
+    at evalmachine.<anonymous>:1:41
+    at ContextifyScript.Script.runInContext (vm.js:53:29)
+    at ContextifyScript.Script.runInNewContext (vm.js:59:15)
+    at Object.runInNewContext (vm.js:112:38)
+2017-09-17T22:06:20.411Z - info: Starting rendering request 28 (user: null) requestId=28
+2017-09-17T22:06:20.414Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=28
+2017-09-17T22:06:22.563Z - error: Error when processing render request Error during rendering report: Missing helper: "total" /home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js:19
+      throw new _exception2['default']('Missing helper: "' + arguments[arguments.length - 1].name + '"');
+      ^
+
+Error: Missing helper: "total"
+    at Object.<anonymous> (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js:19:13)
+    at Object.eval [as main] (eval at createFunctionContext (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:254:23), <anonymous>:26:68)
+    at main (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/runtime.js:173:32)
+    at ret (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/runtime.js:176:12)
+    at ret (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:525:21)
+    at /home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-handlebars/lib/handlebarsEngine.js:25:14
+    at evalmachine.<anonymous>:1:41
+    at ContextifyScript.Script.runInContext (vm.js:53:29)
+    at ContextifyScript.Script.runInNewContext (vm.js:59:15)
+    at Object.runInNewContext (vm.js:112:38) requestId=28
+2017-09-17T22:06:22.565Z - error: Error during processing request: http://localhost:5488/api/report/Profile details: Error during rendering report: Missing helper: "total" /home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js:19
+      throw new _exception2['default']('Missing helper: "' + arguments[arguments.length - 1].name + '"');
+      ^
+
+Error: Missing helper: "total"
+    at Object.<anonymous> (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js:19:13)
+    at Object.eval [as main] (eval at createFunctionContext (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:254:23), <anonymous>:26:68)
+    at main (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/runtime.js:173:32)
+    at ret (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/runtime.js:176:12)
+    at ret (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:525:21)
+    at /home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-handlebars/lib/handlebarsEngine.js:25:14
+    at evalmachine.<anonymous>:1:41
+    at ContextifyScript.Script.runInContext (vm.js:53:29)
+    at ContextifyScript.Script.runInNewContext (vm.js:59:15)
+    at Object.runInNewContext (vm.js:112:38)
+2017-09-17T22:06:36.247Z - info: Starting rendering request 29 (user: null) requestId=29
+2017-09-17T22:06:36.249Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=29
+2017-09-17T22:06:38.252Z - error: Error when processing render request Error during rendering report: Missing helper: "total" /home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js:19
+      throw new _exception2['default']('Missing helper: "' + arguments[arguments.length - 1].name + '"');
+      ^
+
+Error: Missing helper: "total"
+    at Object.<anonymous> (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js:19:13)
+    at Object.eval [as main] (eval at createFunctionContext (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:254:23), <anonymous>:26:68)
+    at main (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/runtime.js:173:32)
+    at ret (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/runtime.js:176:12)
+    at ret (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:525:21)
+    at /home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-handlebars/lib/handlebarsEngine.js:25:14
+    at evalmachine.<anonymous>:1:41
+    at ContextifyScript.Script.runInContext (vm.js:53:29)
+    at ContextifyScript.Script.runInNewContext (vm.js:59:15)
+    at Object.runInNewContext (vm.js:112:38) requestId=29
+2017-09-17T22:06:38.253Z - error: Error during processing request: http://localhost:5488/api/report/Profile details: Error during rendering report: Missing helper: "total" /home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js:19
+      throw new _exception2['default']('Missing helper: "' + arguments[arguments.length - 1].name + '"');
+      ^
+
+Error: Missing helper: "total"
+    at Object.<anonymous> (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js:19:13)
+    at Object.eval [as main] (eval at createFunctionContext (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:254:23), <anonymous>:26:68)
+    at main (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/runtime.js:173:32)
+    at ret (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/runtime.js:176:12)
+    at ret (/home/hanafi/myproject/my-app-local/js-report/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:525:21)
+    at /home/hanafi/myproject/my-app-local/js-report/node_modules/jsreport-handlebars/lib/handlebarsEngine.js:25:14
+    at evalmachine.<anonymous>:1:41
+    at ContextifyScript.Script.runInContext (vm.js:53:29)
+    at ContextifyScript.Script.runInNewContext (vm.js:59:15)
+    at Object.runInNewContext (vm.js:112:38)
+2017-09-17T22:07:27.041Z - info: Starting rendering request 30 (user: null) requestId=30
+2017-09-17T22:07:27.044Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=30
+2017-09-17T22:07:29.731Z - info: Rendering request 30 finished in 2689 ms requestId=30
+2017-09-17T22:09:13.391Z - info: Starting rendering request 31 (user: null) requestId=31
+2017-09-17T22:09:13.392Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=31
+2017-09-17T22:09:16.458Z - info: Rendering request 31 finished in 3068 ms requestId=31
+2017-09-17T22:09:35.197Z - info: Starting rendering request 32 (user: null) requestId=32
+2017-09-17T22:09:35.200Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=32
+2017-09-17T22:09:37.583Z - info: Rendering request 32 finished in 2385 ms requestId=32
+2017-09-17T22:16:09.915Z - info: Starting rendering request 33 (user: null) requestId=33
+2017-09-17T22:16:09.918Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=33
+2017-09-17T22:16:15.772Z - info: Rendering request 33 finished in 5864 ms requestId=33
+2017-09-17T22:16:51.297Z - info: Starting rendering request 34 (user: null) requestId=34
+2017-09-17T22:16:51.300Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=34
+2017-09-17T22:16:54.369Z - info: Rendering request 34 finished in 3073 ms requestId=34
+2017-09-17T22:21:11.668Z - info: Starting rendering request 35 (user: null) requestId=35
+2017-09-17T22:21:11.672Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=35
+2017-09-17T22:21:14.710Z - info: Rendering request 35 finished in 3042 ms requestId=35
+2017-09-17T22:21:24.891Z - info: Starting rendering request 36 (user: null) requestId=36
+2017-09-17T22:21:24.893Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=36
+2017-09-17T22:21:27.337Z - info: Rendering request 36 finished in 2447 ms requestId=36
+2017-09-17T22:23:23.047Z - info: Starting rendering request 37 (user: null) requestId=37
+2017-09-17T22:23:23.048Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=37
+2017-09-17T22:23:26.330Z - info: Rendering request 37 finished in 3284 ms requestId=37
+2017-09-17T22:24:30.718Z - info: Starting rendering request 38 (user: null) requestId=38
+2017-09-17T22:24:30.720Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=38
+2017-09-17T22:24:33.912Z - info: Rendering request 38 finished in 3194 ms requestId=38
+2017-09-17T22:25:00.453Z - info: Starting rendering request 39 (user: null) requestId=39
+2017-09-17T22:25:00.456Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=39
+2017-09-17T22:25:03.616Z - info: Rendering request 39 finished in 3163 ms requestId=39
+2017-09-17T22:25:26.357Z - info: Starting rendering request 40 (user: null) requestId=40
+2017-09-17T22:25:26.361Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=40
+2017-09-17T22:25:28.963Z - info: Rendering request 40 finished in 2607 ms requestId=40
+2017-09-17T22:28:19.120Z - info: Starting rendering request 41 (user: null) requestId=41
+2017-09-17T22:28:19.123Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=41
+2017-09-17T22:28:21.799Z - info: Rendering request 41 finished in 2680 ms requestId=41
+2017-09-17T22:30:59.356Z - info: Starting rendering request 42 (user: null) requestId=42
+2017-09-17T22:30:59.358Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=42
+2017-09-17T22:31:00.508Z - info: Rendering request 42 finished in 1152 ms requestId=42
+2017-09-17T22:31:33.331Z - info: Starting rendering request 43 (user: null) requestId=43
+2017-09-17T22:31:33.332Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=43
+2017-09-17T22:31:34.422Z - info: Rendering request 43 finished in 1092 ms requestId=43
+2017-09-17T22:31:43.241Z - info: Starting rendering request 44 (user: null) requestId=44
+2017-09-17T22:31:43.242Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=44
+2017-09-17T22:31:44.322Z - info: Rendering request 44 finished in 1081 ms requestId=44
+2017-09-17T22:31:52.862Z - info: Starting rendering request 45 (user: null) requestId=45
+2017-09-17T22:31:52.863Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=45
+2017-09-17T22:31:53.932Z - info: Rendering request 45 finished in 1071 ms requestId=45
+2017-09-17T22:32:01.066Z - info: Starting rendering request 46 (user: null) requestId=46
+2017-09-17T22:32:01.067Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=46
+2017-09-17T22:32:02.140Z - info: Rendering request 46 finished in 1075 ms requestId=46
+2017-09-17T22:32:09.279Z - info: Starting rendering request 47 (user: null) requestId=47
+2017-09-17T22:32:09.280Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=47
+2017-09-17T22:32:10.333Z - info: Rendering request 47 finished in 1054 ms requestId=47
+2017-09-17T22:32:18.911Z - info: Starting rendering request 48 (user: null) requestId=48
+2017-09-17T22:32:18.912Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=48
+2017-09-17T22:32:20.027Z - info: Rendering request 48 finished in 1116 ms requestId=48
+2017-09-17T22:32:38.490Z - info: Starting rendering request 49 (user: null) requestId=49
+2017-09-17T22:32:38.491Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=49
+2017-09-17T22:32:39.458Z - info: Rendering request 49 finished in 968 ms requestId=49
+2017-09-17T22:35:15.905Z - info: Starting rendering request 50 (user: null) requestId=50
+2017-09-17T22:35:15.906Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=50
+2017-09-17T22:35:16.870Z - info: Rendering request 50 finished in 965 ms requestId=50
+2017-09-17T22:35:58.960Z - info: Starting rendering request 51 (user: null) requestId=51
+2017-09-17T22:35:58.962Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=51
+2017-09-17T22:36:00.206Z - info: Rendering request 51 finished in 1247 ms requestId=51
+2017-09-17T22:36:16.361Z - info: Starting rendering request 52 (user: null) requestId=52
+2017-09-17T22:36:16.363Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=52
+2017-09-17T22:36:17.441Z - info: Rendering request 52 finished in 1080 ms requestId=52
+2017-09-17T22:36:30.416Z - info: Starting rendering request 53 (user: null) requestId=53
+2017-09-17T22:36:30.417Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=53
+2017-09-17T22:36:31.497Z - info: Rendering request 53 finished in 1081 ms requestId=53
+2017-09-17T22:37:14.829Z - info: Starting rendering request 54 (user: null) requestId=54
+2017-09-17T22:37:14.830Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=54
+2017-09-17T22:37:15.968Z - info: Rendering request 54 finished in 1139 ms requestId=54
+2017-09-17T22:37:38.651Z - info: Starting rendering request 55 (user: null) requestId=55
+2017-09-17T22:37:38.652Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=55
+2017-09-17T22:37:39.618Z - info: Rendering request 55 finished in 966 ms requestId=55
+2017-09-17T22:41:56.512Z - info: Starting rendering request 56 (user: null) requestId=56
+2017-09-17T22:41:56.513Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=56
+2017-09-17T22:41:57.498Z - info: Rendering request 56 finished in 985 ms requestId=56
+2017-09-17T22:42:11.615Z - info: Starting rendering request 57 (user: null) requestId=57
+2017-09-17T22:42:11.616Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=57
+2017-09-17T22:42:12.610Z - info: Rendering request 57 finished in 995 ms requestId=57
+2017-09-17T23:18:24.925Z - info: Starting rendering request 58 (user: null) requestId=58
+2017-09-17T23:18:24.926Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=58
+2017-09-17T23:18:25.898Z - info: Rendering request 58 finished in 973 ms requestId=58
+2017-09-17T23:26:33.854Z - info: Starting rendering request 59 (user: null) requestId=59
+2017-09-17T23:26:33.867Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=59
+2017-09-17T23:26:35.859Z - info: Rendering request 59 finished in 2005 ms requestId=59
+2017-09-17T23:26:56.827Z - info: Starting rendering request 60 (user: null) requestId=60
+2017-09-17T23:26:56.829Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=60
+2017-09-17T23:26:58.882Z - info: Rendering request 60 finished in 2055 ms requestId=60
+2017-09-17T23:28:15.817Z - info: Starting rendering request 61 (user: null) requestId=61
+2017-09-17T23:28:15.819Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=61
+2017-09-17T23:28:17.854Z - info: Rendering request 61 finished in 2040 ms requestId=61
+2017-09-17T23:33:14.247Z - info: Starting rendering request 62 (user: null) requestId=62
+2017-09-17T23:33:14.249Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=62
+2017-09-17T23:33:15.789Z - info: Rendering request 62 finished in 1542 ms requestId=62
+2017-09-17T23:33:27.268Z - info: Starting rendering request 63 (user: null) requestId=63
+2017-09-17T23:33:27.269Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=63
+2017-09-17T23:33:28.238Z - info: Rendering request 63 finished in 970 ms requestId=63
+2017-09-17T23:33:42.980Z - info: Starting rendering request 64 (user: null) requestId=64
+2017-09-17T23:33:42.981Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=64
+2017-09-17T23:33:43.942Z - info: Rendering request 64 finished in 962 ms requestId=64
+2017-09-18T00:25:39.183Z - info: Initializing jsreport@1.8.2 in development mode using configuration file dev.config.json
+2017-09-18T00:25:39.186Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2017-09-18T00:25:39.207Z - info: Searching for available extensions in /home/hanafi/myproject/my-app-local/js-report/
+2017-09-18T00:25:39.214Z - info: Extensions location cache not found, crawling directories
+2017-09-18T00:25:39.710Z - info: Found 30 extensions
+2017-09-18T00:25:40.129Z - info: Using extension import-export
+2017-09-18T00:25:44.999Z - info: Using extension tags
+2017-09-18T00:25:45.350Z - info: Using extension templates
+2017-09-18T00:25:45.490Z - info: Using extension jsrender
+2017-09-18T00:25:45.514Z - info: Using extension cli
+2017-09-18T00:25:45.551Z - info: Using extension handlebars
+2017-09-18T00:25:45.585Z - info: Using extension debug
+2017-09-18T00:25:45.598Z - info: Using extension express
+2017-09-18T00:25:49.384Z - info: Using extension fop-pdf
+2017-09-18T00:25:49.589Z - info: Using extension phantom-pdf
+2017-09-18T00:25:49.970Z - info: Using extension fs-store
+2017-09-18T00:26:00.011Z - info: Using extension authorization
+2017-09-18T00:26:00.085Z - info: Using extension images
+2017-09-18T00:26:00.142Z - info: Using extension child-templates
+2017-09-18T00:26:00.295Z - info: Using extension browser-client
+2017-09-18T00:26:00.342Z - info: Using extension licensing
+2017-09-18T00:26:03.099Z - info: Using extension data
+2017-09-18T00:26:03.121Z - info: Using extension text
+2017-09-18T00:26:03.136Z - info: Using extension reports
+2017-09-18T00:26:03.397Z - info: Using extension resources
+2017-09-18T00:26:03.453Z - info: Using extension base
+2017-09-18T00:26:03.546Z - info: Using extension studio
+2017-09-18T00:26:07.585Z - info: Using extension html-to-xlsx
+2017-09-18T00:26:11.420Z - info: Using extension scripts
+2017-09-18T00:26:11.533Z - info: Using extension assets
+2017-09-18T00:26:11.930Z - info: Using extension scheduling
+2017-09-18T00:26:12.631Z - info: Using extension xlsx
+2017-09-18T00:26:25.426Z - info: Using extension sample-template
+2017-09-18T00:26:25.482Z - info: Using extension public-templates
+2017-09-18T00:26:25.701Z - info: Initializing fs storage at /home/hanafi/myproject/my-app-local/js-report/data
+2017-09-18T00:26:26.486Z - info: Creating default express app.
+2017-09-18T00:26:27.666Z - info: jsreport server successfully started on http port: 5488
+2017-09-18T00:26:27.730Z - info: Verifying license key free
+2017-09-18T00:26:27.733Z - info: Using free license
+2017-09-18T00:26:27.739Z - info: reporter initialized
+2017-09-18T00:29:40.687Z - info: Starting rendering request 1 (user: null) requestId=1
+2017-09-18T00:29:40.691Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=1
+2017-09-18T00:29:44.461Z - info: Rendering request 1 finished in 3776 ms requestId=1
+2017-09-18T00:30:08.875Z - info: Starting rendering request 2 (user: null) requestId=2
+2017-09-18T00:30:08.876Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=2
+2017-09-18T00:30:09.845Z - info: Rendering request 2 finished in 970 ms requestId=2
+2017-09-19T02:01:57.292Z - info: Initializing jsreport@1.8.2 in development mode using configuration file dev.config.json
+2017-09-19T02:01:57.294Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2017-09-19T02:01:57.320Z - info: Searching for available extensions in /home/hanafi/myproject/my-app-local/js-report/
+2017-09-19T02:01:57.325Z - info: Extensions location cache not found, crawling directories
+2017-09-19T02:02:45.919Z - info: Found 30 extensions
+2017-09-19T02:02:46.906Z - info: Using extension import-export
+2017-09-19T02:02:53.470Z - info: Using extension tags
+2017-09-19T02:02:53.578Z - info: Using extension templates
+2017-09-19T02:02:53.629Z - info: Using extension jsrender
+2017-09-19T02:02:53.641Z - info: Using extension cli
+2017-09-19T02:02:53.657Z - info: Using extension handlebars
+2017-09-19T02:02:53.679Z - info: Using extension debug
+2017-09-19T02:02:53.692Z - info: Using extension express
+2017-09-19T02:02:54.908Z - info: Using extension fop-pdf
+2017-09-19T02:02:54.962Z - info: Using extension phantom-pdf
+2017-09-19T02:02:55.130Z - info: Using extension fs-store
+2017-09-19T02:02:59.958Z - info: Using extension authorization
+2017-09-19T02:02:59.987Z - info: Using extension images
+2017-09-19T02:03:00.034Z - info: Using extension child-templates
+2017-09-19T02:03:00.088Z - info: Using extension browser-client
+2017-09-19T02:03:00.124Z - info: Using extension licensing
+2017-09-19T02:03:00.562Z - info: Using extension data
+2017-09-19T02:03:00.572Z - info: Using extension text
+2017-09-19T02:03:00.586Z - info: Using extension reports
+2017-09-19T02:03:00.627Z - info: Using extension resources
+2017-09-19T02:03:00.636Z - info: Using extension base
+2017-09-19T02:03:00.652Z - info: Using extension studio
+2017-09-19T02:03:01.319Z - info: Using extension html-to-xlsx
+2017-09-19T02:03:01.874Z - info: Using extension scripts
+2017-09-19T02:03:01.894Z - info: Using extension assets
+2017-09-19T02:03:01.954Z - info: Using extension scheduling
+2017-09-19T02:03:02.095Z - info: Using extension xlsx
+2017-09-19T02:03:03.520Z - info: Using extension sample-template
+2017-09-19T02:03:03.537Z - info: Using extension public-templates
+2017-09-19T02:03:03.588Z - info: Initializing fs storage at /home/hanafi/myproject/my-app-local/js-report/data
+2017-09-19T02:03:04.087Z - info: Creating default express app.
+2017-09-19T02:03:04.610Z - info: jsreport server successfully started on http port: 5488
+2017-09-19T02:03:04.639Z - info: Verifying license key free
+2017-09-19T02:03:04.646Z - info: Using free license
+2017-09-19T02:03:04.657Z - info: reporter initialized
+2017-09-19T02:08:03.422Z - info: Starting rendering request 1 (user: null) requestId=1
+2017-09-19T02:08:03.426Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=1
+2017-09-19T02:08:09.041Z - info: Rendering request 1 finished in 5620 ms requestId=1
+2017-09-19T02:08:35.508Z - info: Starting rendering request 2 (user: null) requestId=2
+2017-09-19T02:08:35.511Z - info: Rendering template {shortid:SJKJ6gnc-, recipe:phantom-pdf,engine:handlebars} requestId=2
+2017-09-19T02:08:36.488Z - info: Rendering request 2 finished in 980 ms requestId=2
